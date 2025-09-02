@@ -49,7 +49,7 @@ pipeline {
                 sh '''
                     pwd
                     ls -la
-                    npm install -g netlify-cli -g
+                    npm install -g netlify-cli
                     netlify --version
                     pwd
                     ls -la
