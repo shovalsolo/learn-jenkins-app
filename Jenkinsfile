@@ -5,10 +5,9 @@ pipeline {
         stage('Hello') {
             steps {
                 sh '''
-                    echo "Hello without docker"
+                    echo "Hello without "
                     pwd
                     ls -la
-                    touch container-no.txt
                 '''
             }
         }
