@@ -47,12 +47,8 @@ pipeline {
             }
             steps {
                 sh '''
-                    pwd
-                    ls -la
-                    npm install -g netlify-cli
+                    npm install netlify-cli
                     node_modules/.bin/netlify --version
-                    pwd
-                    ls -la
                 '''
             }
         }
