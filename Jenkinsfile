@@ -50,7 +50,7 @@ pipeline {
                     pwd
                     ls -la
                     npm install -g netlify-cli
-                    netlify --version
+                    node_modules/.bin/netlify --version
                     pwd
                     ls -la
                 '''
